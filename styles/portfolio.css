@@ -12,9 +12,16 @@
     color: #FD6E0A;
 }
 
+.dark-1{
+    color: #181818;
+}
 .dark-2{
     color: #474747;
 }
+.dark-3{
+    color: #757575;
+}
+
 
 .btn-primary{
     background-color: #FD6E0A;
@@ -25,6 +32,13 @@
     font-weight: 700;
     padding: 18px 35px;
 }
+/* header style */
+.header{
+    background-image: url("../images/developer.png"), url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+
 /* nav styles */
 
 nav{
@@ -51,4 +65,36 @@ nav ul li{
 nav li a{
     text-decoration: none;
     font-size: 20px;
+}
+
+                                                    /* banner style */
+
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 40px 0px 170px;
+
+}
+.banner-content{
+    max-width: 585px;
+}
+.banner-greetings{
+    font-weight: 600;
+    font-size: 45px;
+}
+
+.banner-title{
+    font-weight: 700;
+    font-size: 85px;
+}
+
+.banner-description{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.banner-profile-picture{
+    width: 580px;
+    height: 676px;
 }
